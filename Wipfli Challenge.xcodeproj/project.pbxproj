@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AD2656768D8EDE496E5B60B /* Pods_Wipfli_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843319FE2E4A4AB6B0AB741F /* Pods_Wipfli_Challenge.framework */; };
+		344FD2A125C91A94001F4A3D /* API+Movies+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FD2A025C91A94001F4A3D /* API+Movies+Search.swift */; };
 		34543A7F25C3BC4700D08B5A /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34543A7E25C3BC4700D08B5A /* MovieData.swift */; };
 		34673D6225C206AD00CFAE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D6125C206AD00CFAE70 /* AppDelegate.swift */; };
 		34673D6425C206AD00CFAE70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D6325C206AD00CFAE70 /* SceneDelegate.swift */; };
@@ -23,7 +24,6 @@
 		34673DE725C269F100CFAE70 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DE525C269F100CFAE70 /* KeyedDecodingContainer.swift */; };
 		34673DF825C26BB200CFAE70 /* RatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DF725C26BB200CFAE70 /* RatingModel.swift */; };
 		34673DFD25C26D7F00CFAE70 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DFC25C26D7F00CFAE70 /* API.swift */; };
-		34673E0225C26F6800CFAE70 /* API+Movies+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E0125C26F6800CFAE70 /* API+Movies+Search.swift */; };
 		34673E0F25C271EE00CFAE70 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E0E25C271EE00CFAE70 /* MovieRepository.swift */; };
 		34673E1E25C27C2A00CFAE70 /* API+Movies+FetchByID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E1D25C27C2A00CFAE70 /* API+Movies+FetchByID.swift */; };
 		34673E3925C2891A00CFAE70 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34673E3825C2891A00CFAE70 /* MovieTableViewCell.xib */; };
@@ -52,6 +52,7 @@
 /* Begin PBXFileReference section */
 		1C4AF75BA8609D644AE7CE8F /* Pods-Wipfli Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wipfli Challenge.release.xcconfig"; path = "Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge.release.xcconfig"; sourceTree = "<group>"; };
 		29FE181A4AEBC0B96C4FEADF /* Pods-Wipfli Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wipfli Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		344FD2A025C91A94001F4A3D /* API+Movies+Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+Movies+Search.swift"; sourceTree = "<group>"; };
 		34543A7E25C3BC4700D08B5A /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 		34673D5E25C206AD00CFAE70 /* Wipfli Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wipfli Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34673D6125C206AD00CFAE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		34673DE525C269F100CFAE70 /* KeyedDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainer.swift; sourceTree = "<group>"; };
 		34673DF725C26BB200CFAE70 /* RatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingModel.swift; sourceTree = "<group>"; };
 		34673DFC25C26D7F00CFAE70 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		34673E0125C26F6800CFAE70 /* API+Movies+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Movies+Search.swift"; sourceTree = SOURCE_ROOT; };
 		34673E0E25C271EE00CFAE70 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
 		34673E1D25C27C2A00CFAE70 /* API+Movies+FetchByID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Movies+FetchByID.swift"; sourceTree = "<group>"; };
 		34673E3825C2891A00CFAE70 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 		34673DD125C2167000CFAE70 /* API Services */ = {
 			isa = PBXGroup;
 			children = (
-				34673E0125C26F6800CFAE70 /* API+Movies+Search.swift */,
+				344FD2A025C91A94001F4A3D /* API+Movies+Search.swift */,
 				34673E1D25C27C2A00CFAE70 /* API+Movies+FetchByID.swift */,
 				34673DEF25C26A6C00CFAE70 /* Foundation */,
 			);
@@ -440,10 +440,10 @@
 				34673DE725C269F100CFAE70 /* KeyedDecodingContainer.swift in Sources */,
 				34673DCD25C2160900CFAE70 /* HTTPStatusCode.swift in Sources */,
 				34673E1E25C27C2A00CFAE70 /* API+Movies+FetchByID.swift in Sources */,
+				344FD2A125C91A94001F4A3D /* API+Movies+Search.swift in Sources */,
 				34673DC325C2155B00CFAE70 /* APIService.swift in Sources */,
 				34543A7F25C3BC4700D08B5A /* MovieData.swift in Sources */,
 				34673D6225C206AD00CFAE70 /* AppDelegate.swift in Sources */,
-				34673E0225C26F6800CFAE70 /* API+Movies+Search.swift in Sources */,
 				34673D6425C206AD00CFAE70 /* SceneDelegate.swift in Sources */,
 				34673D9825C2080400CFAE70 /* Constants.swift in Sources */,
 				34673DF825C26BB200CFAE70 /* RatingModel.swift in Sources */,
