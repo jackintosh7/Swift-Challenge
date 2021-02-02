@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD2656768D8EDE496E5B60B /* Pods_Wipfli_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843319FE2E4A4AB6B0AB741F /* Pods_Wipfli_Challenge.framework */; };
+		34543A7F25C3BC4700D08B5A /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34543A7E25C3BC4700D08B5A /* MovieData.swift */; };
+		34673D6225C206AD00CFAE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D6125C206AD00CFAE70 /* AppDelegate.swift */; };
+		34673D6425C206AD00CFAE70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D6325C206AD00CFAE70 /* SceneDelegate.swift */; };
+		34673D6B25C206AE00CFAE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34673D6A25C206AE00CFAE70 /* Assets.xcassets */; };
+		34673D6E25C206AE00CFAE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34673D6C25C206AE00CFAE70 /* LaunchScreen.storyboard */; };
+		34673D7925C206AE00CFAE70 /* Wipfli_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D7825C206AE00CFAE70 /* Wipfli_ChallengeTests.swift */; };
+		34673D8425C206AE00CFAE70 /* Wipfli_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D8325C206AE00CFAE70 /* Wipfli_ChallengeUITests.swift */; };
+		34673D9825C2080400CFAE70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673D9725C2080400CFAE70 /* Constants.swift */; };
+		34673DC325C2155B00CFAE70 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DC225C2155B00CFAE70 /* APIService.swift */; };
+		34673DCD25C2160900CFAE70 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DCC25C2160900CFAE70 /* HTTPStatusCode.swift */; };
+		34673DD925C216DE00CFAE70 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DD825C216DE00CFAE70 /* MovieModel.swift */; };
+		34673DE625C269F100CFAE70 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DE425C269F100CFAE70 /* Realm.swift */; };
+		34673DE725C269F100CFAE70 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DE525C269F100CFAE70 /* KeyedDecodingContainer.swift */; };
+		34673DF825C26BB200CFAE70 /* RatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DF725C26BB200CFAE70 /* RatingModel.swift */; };
+		34673DFD25C26D7F00CFAE70 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673DFC25C26D7F00CFAE70 /* API.swift */; };
+		34673E0225C26F6800CFAE70 /* API+Movies+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E0125C26F6800CFAE70 /* API+Movies+Search.swift */; };
+		34673E0F25C271EE00CFAE70 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E0E25C271EE00CFAE70 /* MovieRepository.swift */; };
+		34673E1E25C27C2A00CFAE70 /* API+Movies+FetchByID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E1D25C27C2A00CFAE70 /* API+Movies+FetchByID.swift */; };
+		34673E3925C2891A00CFAE70 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34673E3825C2891A00CFAE70 /* MovieTableViewCell.xib */; };
+		34673E4125C28AA500CFAE70 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E4025C28AA500CFAE70 /* MovieDetailViewController.swift */; };
+		34673E4625C28AB200CFAE70 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34673E4525C28AB200CFAE70 /* MovieTableViewController.swift */; };
+		34E4905925C29B0800B1DF1E /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E4905825C29B0800B1DF1E /* MovieTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34673D7525C206AE00CFAE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34673D5625C206AD00CFAE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34673D5D25C206AD00CFAE70;
+			remoteInfo = "Wipfli Challenge";
+		};
+		34673D8025C206AE00CFAE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34673D5625C206AD00CFAE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34673D5D25C206AD00CFAE70;
+			remoteInfo = "Wipfli Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C4AF75BA8609D644AE7CE8F /* Pods-Wipfli Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wipfli Challenge.release.xcconfig"; path = "Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		29FE181A4AEBC0B96C4FEADF /* Pods-Wipfli Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wipfli Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		34543A7E25C3BC4700D08B5A /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		34673D5E25C206AD00CFAE70 /* Wipfli Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wipfli Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34673D6125C206AD00CFAE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34673D6325C206AD00CFAE70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34673D6A25C206AE00CFAE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34673D6D25C206AE00CFAE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34673D6F25C206AE00CFAE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34673D7425C206AE00CFAE70 /* Wipfli ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wipfli ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34673D7825C206AE00CFAE70 /* Wipfli_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wipfli_ChallengeTests.swift; sourceTree = "<group>"; };
+		34673D7A25C206AE00CFAE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34673D7F25C206AE00CFAE70 /* Wipfli ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wipfli ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34673D8325C206AE00CFAE70 /* Wipfli_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wipfli_ChallengeUITests.swift; sourceTree = "<group>"; };
+		34673D8525C206AE00CFAE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34673D9725C2080400CFAE70 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		34673DC225C2155B00CFAE70 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		34673DCC25C2160900CFAE70 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		34673DD825C216DE00CFAE70 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		34673DE425C269F100CFAE70 /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		34673DE525C269F100CFAE70 /* KeyedDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		34673DF725C26BB200CFAE70 /* RatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingModel.swift; sourceTree = "<group>"; };
+		34673DFC25C26D7F00CFAE70 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		34673E0125C26F6800CFAE70 /* API+Movies+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Movies+Search.swift"; sourceTree = SOURCE_ROOT; };
+		34673E0E25C271EE00CFAE70 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		34673E1D25C27C2A00CFAE70 /* API+Movies+FetchByID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Movies+FetchByID.swift"; sourceTree = "<group>"; };
+		34673E3825C2891A00CFAE70 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		34673E4025C28AA500CFAE70 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		34673E4525C28AB200CFAE70 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		34E4905825C29B0800B1DF1E /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		843319FE2E4A4AB6B0AB741F /* Pods_Wipfli_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wipfli_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34673D5B25C206AD00CFAE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD2656768D8EDE496E5B60B /* Pods_Wipfli_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34673D7125C206AE00CFAE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34673D7C25C206AE00CFAE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C72BF4CE2AB19B20BC9E892 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FE181A4AEBC0B96C4FEADF /* Pods-Wipfli Challenge.debug.xcconfig */,
+				1C4AF75BA8609D644AE7CE8F /* Pods-Wipfli Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34673D5525C206AD00CFAE70 = {
+			isa = PBXGroup;
+			children = (
+				34673D6025C206AD00CFAE70 /* Wipfli Challenge */,
+				34673D7725C206AE00CFAE70 /* Wipfli ChallengeTests */,
+				34673D8225C206AE00CFAE70 /* Wipfli ChallengeUITests */,
+				34673D5F25C206AD00CFAE70 /* Products */,
+				1C72BF4CE2AB19B20BC9E892 /* Pods */,
+				B45E07BBB5EA4F0BC0E645C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34673D5F25C206AD00CFAE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34673D5E25C206AD00CFAE70 /* Wipfli Challenge.app */,
+				34673D7425C206AE00CFAE70 /* Wipfli ChallengeTests.xctest */,
+				34673D7F25C206AE00CFAE70 /* Wipfli ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34673D6025C206AD00CFAE70 /* Wipfli Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				34673D6125C206AD00CFAE70 /* AppDelegate.swift */,
+				34673D6325C206AD00CFAE70 /* SceneDelegate.swift */,
+				34673D9725C2080400CFAE70 /* Constants.swift */,
+				34673E5825C28ADE00CFAE70 /* MovieDetailView */,
+				34673E4F25C28AC600CFAE70 /* MovieTableView */,
+				34673E1925C27A8200CFAE70 /* Repository */,
+				34673DF325C26A7500CFAE70 /* Models */,
+				34673DD125C2167000CFAE70 /* API Services */,
+				34673DEB25C269F700CFAE70 /* Extensions */,
+				34673D6A25C206AE00CFAE70 /* Assets.xcassets */,
+				34673D6C25C206AE00CFAE70 /* LaunchScreen.storyboard */,
+				34673D6F25C206AE00CFAE70 /* Info.plist */,
+			);
+			path = "Wipfli Challenge";
+			sourceTree = "<group>";
+		};
+		34673D7725C206AE00CFAE70 /* Wipfli ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				34673D7825C206AE00CFAE70 /* Wipfli_ChallengeTests.swift */,
+				34673D7A25C206AE00CFAE70 /* Info.plist */,
+			);
+			path = "Wipfli ChallengeTests";
+			sourceTree = "<group>";
+		};
+		34673D8225C206AE00CFAE70 /* Wipfli ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34673D8325C206AE00CFAE70 /* Wipfli_ChallengeUITests.swift */,
+				34673D8525C206AE00CFAE70 /* Info.plist */,
+			);
+			path = "Wipfli ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		34673DD125C2167000CFAE70 /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+				34673E0125C26F6800CFAE70 /* API+Movies+Search.swift */,
+				34673E1D25C27C2A00CFAE70 /* API+Movies+FetchByID.swift */,
+				34673DEF25C26A6C00CFAE70 /* Foundation */,
+			);
+			path = "API Services";
+			sourceTree = "<group>";
+		};
+		34673DEB25C269F700CFAE70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34673DE525C269F100CFAE70 /* KeyedDecodingContainer.swift */,
+				34673DE425C269F100CFAE70 /* Realm.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34673DEF25C26A6C00CFAE70 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				34673DFC25C26D7F00CFAE70 /* API.swift */,
+				34673DC225C2155B00CFAE70 /* APIService.swift */,
+				34673DCC25C2160900CFAE70 /* HTTPStatusCode.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		34673DF325C26A7500CFAE70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34543A7E25C3BC4700D08B5A /* MovieData.swift */,
+				34673DD825C216DE00CFAE70 /* MovieModel.swift */,
+				34673DF725C26BB200CFAE70 /* RatingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34673E1925C27A8200CFAE70 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				34673E0E25C271EE00CFAE70 /* MovieRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		34673E4F25C28AC600CFAE70 /* MovieTableView */ = {
+			isa = PBXGroup;
+			children = (
+				34673E5C25C28AE700CFAE70 /* MovieTableViewCell */,
+				34673E4525C28AB200CFAE70 /* MovieTableViewController.swift */,
+			);
+			path = MovieTableView;
+			sourceTree = "<group>";
+		};
+		34673E5825C28ADE00CFAE70 /* MovieDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				34673E4025C28AA500CFAE70 /* MovieDetailViewController.swift */,
+			);
+			path = MovieDetailView;
+			sourceTree = "<group>";
+		};
+		34673E5C25C28AE700CFAE70 /* MovieTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				34673E3825C2891A00CFAE70 /* MovieTableViewCell.xib */,
+				34E4905825C29B0800B1DF1E /* MovieTableViewCell.swift */,
+			);
+			path = MovieTableViewCell;
+			sourceTree = "<group>";
+		};
+		B45E07BBB5EA4F0BC0E645C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843319FE2E4A4AB6B0AB741F /* Pods_Wipfli_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34673D5D25C206AD00CFAE70 /* Wipfli Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34673D8825C206AE00CFAE70 /* Build configuration list for PBXNativeTarget "Wipfli Challenge" */;
+			buildPhases = (
+				C190D038982FC90323692D43 /* [CP] Check Pods Manifest.lock */,
+				34673D5A25C206AD00CFAE70 /* Sources */,
+				34673D5B25C206AD00CFAE70 /* Frameworks */,
+				34673D5C25C206AD00CFAE70 /* Resources */,
+				F2D2C5A7E255675732B29C48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wipfli Challenge";
+			productName = "Wipfli Challenge";
+			productReference = 34673D5E25C206AD00CFAE70 /* Wipfli Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34673D7325C206AE00CFAE70 /* Wipfli ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34673D8B25C206AE00CFAE70 /* Build configuration list for PBXNativeTarget "Wipfli ChallengeTests" */;
+			buildPhases = (
+				34673D7025C206AE00CFAE70 /* Sources */,
+				34673D7125C206AE00CFAE70 /* Frameworks */,
+				34673D7225C206AE00CFAE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34673D7625C206AE00CFAE70 /* PBXTargetDependency */,
+			);
+			name = "Wipfli ChallengeTests";
+			productName = "Wipfli ChallengeTests";
+			productReference = 34673D7425C206AE00CFAE70 /* Wipfli ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34673D7E25C206AE00CFAE70 /* Wipfli ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34673D8E25C206AE00CFAE70 /* Build configuration list for PBXNativeTarget "Wipfli ChallengeUITests" */;
+			buildPhases = (
+				34673D7B25C206AE00CFAE70 /* Sources */,
+				34673D7C25C206AE00CFAE70 /* Frameworks */,
+				34673D7D25C206AE00CFAE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34673D8125C206AE00CFAE70 /* PBXTargetDependency */,
+			);
+			name = "Wipfli ChallengeUITests";
+			productName = "Wipfli ChallengeUITests";
+			productReference = 34673D7F25C206AE00CFAE70 /* Wipfli ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34673D5625C206AD00CFAE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					34673D5D25C206AD00CFAE70 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					34673D7325C206AE00CFAE70 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 34673D5D25C206AD00CFAE70;
+					};
+					34673D7E25C206AE00CFAE70 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 34673D5D25C206AD00CFAE70;
+					};
+				};
+			};
+			buildConfigurationList = 34673D5925C206AD00CFAE70 /* Build configuration list for PBXProject "Wipfli Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34673D5525C206AD00CFAE70;
+			productRefGroup = 34673D5F25C206AD00CFAE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34673D5D25C206AD00CFAE70 /* Wipfli Challenge */,
+				34673D7325C206AE00CFAE70 /* Wipfli ChallengeTests */,
+				34673D7E25C206AE00CFAE70 /* Wipfli ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34673D5C25C206AD00CFAE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34673D6E25C206AE00CFAE70 /* LaunchScreen.storyboard in Resources */,
+				34673E3925C2891A00CFAE70 /* MovieTableViewCell.xib in Resources */,
+				34673D6B25C206AE00CFAE70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34673D7225C206AE00CFAE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34673D7D25C206AE00CFAE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C190D038982FC90323692D43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wipfli Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D2C5A7E255675732B29C48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wipfli Challenge/Pods-Wipfli Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34673D5A25C206AD00CFAE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34673E4625C28AB200CFAE70 /* MovieTableViewController.swift in Sources */,
+				34673DFD25C26D7F00CFAE70 /* API.swift in Sources */,
+				34E4905925C29B0800B1DF1E /* MovieTableViewCell.swift in Sources */,
+				34673E4125C28AA500CFAE70 /* MovieDetailViewController.swift in Sources */,
+				34673DD925C216DE00CFAE70 /* MovieModel.swift in Sources */,
+				34673DE725C269F100CFAE70 /* KeyedDecodingContainer.swift in Sources */,
+				34673DCD25C2160900CFAE70 /* HTTPStatusCode.swift in Sources */,
+				34673E1E25C27C2A00CFAE70 /* API+Movies+FetchByID.swift in Sources */,
+				34673DC325C2155B00CFAE70 /* APIService.swift in Sources */,
+				34543A7F25C3BC4700D08B5A /* MovieData.swift in Sources */,
+				34673D6225C206AD00CFAE70 /* AppDelegate.swift in Sources */,
+				34673E0225C26F6800CFAE70 /* API+Movies+Search.swift in Sources */,
+				34673D6425C206AD00CFAE70 /* SceneDelegate.swift in Sources */,
+				34673D9825C2080400CFAE70 /* Constants.swift in Sources */,
+				34673DF825C26BB200CFAE70 /* RatingModel.swift in Sources */,
+				34673E0F25C271EE00CFAE70 /* MovieRepository.swift in Sources */,
+				34673DE625C269F100CFAE70 /* Realm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34673D7025C206AE00CFAE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34673D7925C206AE00CFAE70 /* Wipfli_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34673D7B25C206AE00CFAE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34673D8425C206AE00CFAE70 /* Wipfli_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34673D7625C206AE00CFAE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34673D5D25C206AD00CFAE70 /* Wipfli Challenge */;
+			targetProxy = 34673D7525C206AE00CFAE70 /* PBXContainerItemProxy */;
+		};
+		34673D8125C206AE00CFAE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34673D5D25C206AD00CFAE70 /* Wipfli Challenge */;
+			targetProxy = 34673D8025C206AE00CFAE70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34673D6C25C206AE00CFAE70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34673D6D25C206AE00CFAE70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34673D8625C206AE00CFAE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34673D8725C206AE00CFAE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34673D8925C206AE00CFAE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FE181A4AEBC0B96C4FEADF /* Pods-Wipfli Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wipfli Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackhiggins.Wipfli-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34673D8A25C206AE00CFAE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4AF75BA8609D644AE7CE8F /* Pods-Wipfli Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wipfli Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackhiggins.Wipfli-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34673D8C25C206AE00CFAE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wipfli ChallengeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackhiggins.Wipfli-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wipfli Challenge.app/Wipfli Challenge";
+			};
+			name = Debug;
+		};
+		34673D8D25C206AE00CFAE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wipfli ChallengeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackhiggins.Wipfli-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wipfli Challenge.app/Wipfli Challenge";
+			};
+			name = Release;
+		};
+		34673D8F25C206AE00CFAE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wipfli ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackhiggins.Wipfli-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wipfli Challenge";
+			};
+			name = Debug;
+		};
+		34673D9025C206AE00CFAE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wipfli ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jackhiggins.Wipfli-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wipfli Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34673D5925C206AD00CFAE70 /* Build configuration list for PBXProject "Wipfli Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34673D8625C206AE00CFAE70 /* Debug */,
+				34673D8725C206AE00CFAE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34673D8825C206AE00CFAE70 /* Build configuration list for PBXNativeTarget "Wipfli Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34673D8925C206AE00CFAE70 /* Debug */,
+				34673D8A25C206AE00CFAE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34673D8B25C206AE00CFAE70 /* Build configuration list for PBXNativeTarget "Wipfli ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34673D8C25C206AE00CFAE70 /* Debug */,
+				34673D8D25C206AE00CFAE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34673D8E25C206AE00CFAE70 /* Build configuration list for PBXNativeTarget "Wipfli ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34673D8F25C206AE00CFAE70 /* Debug */,
+				34673D9025C206AE00CFAE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34673D5625C206AD00CFAE70 /* Project object */;
+}

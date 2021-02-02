@@ -1,0 +1,6 @@
+framework module Pods_Wipfli_Challenge {
+  umbrella header "Pods-Wipfli Challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
